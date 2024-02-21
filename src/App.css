@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg_container {
+  min-height: 100vh;
+  background-color: #9ba9eb;
+  font-family: 'Roboto';
+  padding: 25px;
+}
+.applogoImage {
+  width: 50%;
+  margin-bottom: 10px;
+}
+.newPasswordContainer {
+  background-color: #5763a5;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.passwordManagerImage {
+  width: 100%;
+}
+.newFormContainer {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #454f84;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.newpasswordPara {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+}
+.inputElcontainer {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.websiteImage {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 50px;
+}
+.inputTextEl {
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-left-style: solid;
+  border-left-width: 2px;
+  outline: none;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.addBtn {
+  align-self: flex-end;
+  width: 80px;
+  height: 40px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .newPasswordContainer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .passwordManagerImage {
+    order: 1;
+    width: 50%;
+  }
+  .inputElcontainer {
+    height: 60px;
+  }
+  .websiteImage {
+    width: 60px;
+  }
+}
+
+.HistoryContainer {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  background-color: #5763a5;
+}
+.searchContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.pslengthcontainer {
+  display: flex;
+  align-items: center;
+}
+.PasswordPara {
+  color: #ffffff;
+  font-size: 21px;
+}
+.span {
+  border-style: solid;
+  border-color: #ffffff;
+  color: #ffffff;
+  width: 50px;
+  height: 35px;
+  border-radius: 10px;
+  margin-left: 10px;
+  text-align: center;
+  padding-top: 3px;
+  font-size: 21px;
+}
+.inputElContainer {
+  display: flex;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.searchImage {
+  align-self: center;
+  height: 20px;
+  padding-left: 10px;
+  padding-right: 15px;
+}
+.inputSearachEl {
+  border: none;
+  outline: none;
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-color: #94a3b8;
+  padding-left: 5px;
+  font-size: 14px;
+}
+@media screen and (min-width: 768px) {
+}
+.horizontalLine {
+}
+.checkBoxPasswordContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 20px;
+}
+.inputcheckboxEl {
+  width: 20px;
+  height: 20px;
+}
+.ShowPasswordsPara {
+  margin-left: 10px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+}
+.noHistoryImage {
+  width: 100%;
+}
+.NoPasswordsPara {
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .passwordListContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .itemsContainer {
+    max-width: 300px;
+    margin-left: 18px;
+  }
+}
+.passwordListContainer {
+  list-style-type: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.itemsContainer {
+  display: flex;
+  width: 100%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.urlheading {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  text-align: center;
+  padding-top: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #7683cb;
+  color: #ffffff;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+.descripPara {
+  color: #ffffff;
+  padding-left: 15px;
+}
+.passswordhideImage {
+  width: 100%;
+  color: #ffffff;
+  padding-left: 10px;
+}
+.deletBtn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.delteIcon {
+  width: 40px;
+}
